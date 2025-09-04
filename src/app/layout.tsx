@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col h-full">
           <Header />
-          <main className="flex-1 overflow-visible z-10">{children}</main>
+          <main className="flex-1 overflow-visible">{children}</main>
           <Footer />
         </div>
       </body>
