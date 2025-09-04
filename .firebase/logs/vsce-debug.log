@@ -1,0 +1,30 @@
+[debug] [2025-09-04T13:00:21.855Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-09-04T13:00:23.580Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-09-04T13:00:23.581Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-04T13:00:23.581Z] > authorizing via signed-in user (isaac2001clark@gmail.com)
+[debug] [2025-09-04T13:00:23.583Z] Checked if tokens are valid: true, expires at: 1756994404168
+[debug] [2025-09-04T13:00:23.583Z] Checked if tokens are valid: true, expires at: 1756994404168
+[debug] [2025-09-04T13:00:23.583Z] [Firebase Plugin] User found:  isaac2001clark@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-09-04T13:00:23.583Z] Checked if tokens are valid: true, expires at: 1756994404168
+[debug] [2025-09-04T13:00:23.584Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-09-04T13:00:23.587Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[info] [Firebase Plugin] Starting Data Connect toolkit (version 2.11.2) on port 50001
+[debug] [2025-09-04T13:00:23.984Z] 'fdc build' failed with error: Unable to build your Data Connect schema and connectors (exit code 1): E0904 14:00:23.980329   84132 cmd.go:43] Error loading data connect config: could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"'fdc build' failed with error: Unable to build your Data Connect schema and connectors (exit code 1): E0904 14:00:23.980329   84132 cmd.go:43] Error loading data connect config: could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`\n"}}
+[debug] [2025-09-04T13:00:23.984Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-04T13:00:23.984Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-09-04T13:00:23.985Z] Starting Data Connect Emulator with command {"binary":"/Users/isaacclark/.cache/firebase/emulators/dataconnect-emulator-2.11.2","args":["--logtostderr","-v=2","dev","--listen=localhost:50001","--config_dir=/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"/Users/isaacclark/.cache/firebase/emulators/dataconnect-emulator-2.11.2\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=localhost:50001\",\"--config_dir=/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to dataconnect-debug.log"}}
+[debug] [2025-09-04T13:00:24.262Z] E0904 14:00:24.250447   84135 dev.go:79] Failed to load initial config from "/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect": could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"E0904 14:00:24.250447   84135 dev.go:79] Failed to load initial config from \"/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect\": could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`\n"}}
+[debug] [2025-09-04T13:00:24.264Z] E0904 14:00:24.263407   84135 watch.go:102] watchAllDir unable to walk dir `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`: lstat /Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect: no such file or directory
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"E0904 14:00:24.263407   84135 watch.go:102] watchAllDir unable to walk dir `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`: lstat /Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect: no such file or directory\n"}}
+[debug] [2025-09-04T13:00:24.270Z] I0904 14:00:24.269975   84135 dev.go:102] Listening on address (HTTP + gRPC): 127.0.0.1:50001
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0904 14:00:24.269975   84135 dev.go:102] Listening on address (HTTP + gRPC): 127.0.0.1:50001\n"}}
+[debug] [2025-09-04T13:00:24.481Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-04T13:00:24.482Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[error] [Firebase Plugin] error:  {}
+[debug] [2025-09-04T13:00:34.266Z] E0904 14:00:34.266314   84135 watch.go:31] Failed to load config from "/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect": could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"E0904 14:00:34.266314   84135 watch.go:31] Failed to load config from \"/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect\": could not find dataconnect.yaml in `/Users/isaacclark/Desktop/GitHub Projects/portfolio_website_next/dataconnect`\n"}}
