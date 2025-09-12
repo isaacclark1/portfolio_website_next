@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div
-      className="flex flex-col bg-white dark:bg-black mt-10 rounded-xl border border-gray-800 min-h-[500px]"
+      className="flex flex-col bg-black mt-10 rounded-xl border border-gray-800 min-h-[500px]"
       tabIndex={0}
     >
       <Image
